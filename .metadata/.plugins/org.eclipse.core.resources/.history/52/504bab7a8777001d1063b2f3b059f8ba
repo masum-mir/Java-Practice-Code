@@ -1,0 +1,16 @@
+package com.collections.standalone;
+
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+public class Test {
+	
+	public static void main(String ... as) {
+	
+		ApplicationContext context = new ClassPathXmlApplicationContext("com/collections/standalone/config");
+		
+		Emp emp = 
+		
+	}
+
+}

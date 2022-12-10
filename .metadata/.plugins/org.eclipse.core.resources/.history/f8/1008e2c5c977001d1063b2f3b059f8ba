@@ -1,0 +1,11 @@
+package com.bean.scope;
+
+import org.springframework.context.ApplicationContext;
+
+public class Test {
+	public static void main(String ...str) {
+		
+		ApplicationContext context = 
+		
+	}
+}

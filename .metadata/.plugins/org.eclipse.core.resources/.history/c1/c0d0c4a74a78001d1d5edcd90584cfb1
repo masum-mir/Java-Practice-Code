@@ -1,0 +1,12 @@
+package com.annotation.base;
+
+import org.springframework.stereotype.Component;
+
+//@Component
+
+public class Student {
+
+	public void display() {
+		System.out.println("Show Show Show");
+	}
+}

@@ -1,0 +1,9 @@
+package com.stereotype.annotation;
+
+public class Test {
+	
+	public static void main(String ...d) {
+		System.out.println("hi");
+	}
+
+}

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans 
+	xmlns="http://www.springframework.org/schema/beans"
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xmlns:p="http://www.springframework.org/schema/p"
+ xmlns:util="http://www.springframework.org/schema/util"
+ xmlns:context="http://www.springframework.org/schema/context"
+ xsi:schemaLocation="http://www.springframework.org/schema/beans
+ https://www.springframework.org/schema/beans/spring-beans.xsd
+  http://www.springframework.org/schema/context
+ https://www.springframework.org/schema/context/spring-context.xsd
+  http://www.springframework.org/schema/util
+ https://www.springframework.org/schema/util/spring-util.xsd">
+
+ <!-- // standalone list  -->
+ 	
+ 	<util:list list-class="java.util.Vector" id="phones2">
+ 		<value>Ashik</value>
+ 		<value>Mafuz</value>
+ 		<value>Masud</value>
+ 		<value>Asif</value>
+ 	</util:list>
+ 
+ 	<util:map map-class="java.util.HashMap" id="courses">
+ 		<entry></entry>
+ 	</util:map>
+
+	<bean class="com.collections.standalone.Emp" name="emp1">
+		
+		<property name="name" value="abc"/>
+		
+		<!-- <property name="phones">
+			<ref bean="phones2"/>
+		</property> -->
+		
+		<property name="phones" ref="phones2" />
+		
+		<property name="addresses">
+			<set>
+				<value>Dhaka</value>
+				<value>Gazipur</value>
+				<value>Sreepur</value>
+			</set>
+		</property>
+		
+		<property name="courses">
+			<map>
+				<entry key="java" value="2months" />
+				<entry key="python" value="3months"/>
+			</map>
+		</property>
+	
+	</bean>
+
+	<bean class="com.collections.standalone.Emp" name="emp2">
+		
+		<property name="name" value="abc"/>
+		
+		<!-- <property name="phones">
+			<ref bean="phones2"/>
+		</property> -->
+		
+		<property name="phones" ref="phones2" />
+		
+		<property name="addresses">
+			<set>
+				<value>Dhaka</value>
+				<value>Gazipur</value>
+				<value>Sreepur</value>
+			</set>
+		</property>
+		
+		<!-- // map -->
+		<property name="courses" ref=>
+	
+	</bean>
+
+
+
+ </beans>

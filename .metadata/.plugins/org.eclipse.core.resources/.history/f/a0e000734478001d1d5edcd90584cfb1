@@ -1,0 +1,27 @@
+package com.spel;
+
+
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+import org.springframework.expression.Expression;
+import org.springframework.expression.spel.standard.SpelExpressionParser;
+
+public class Test {
+	public static void main(String ...stri)  {
+		
+		ApplicationContext context = new ClassPathXmlApplicationContext("com/spel/config.xml");
+		
+		Student student = context.getBean("student", Student.class);
+		
+		System.out.println(student);
+		
+		 SpelExpressionParser obj = new SpelExpressionParser();
+		 Expression expression = obj.parseExpression("39 + 34 - 3");
+		
+			System.out.println(expression.getValue());
+		
+			
+		Calculator cal = new Calculator()
+		
+	}
+}

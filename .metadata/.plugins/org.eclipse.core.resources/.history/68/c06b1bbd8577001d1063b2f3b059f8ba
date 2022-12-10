@@ -1,0 +1,9 @@
+package com.collections.standalone;
+
+public class Emp {
+	
+	private String name;
+	private String phones;
+	private String 
+
+}

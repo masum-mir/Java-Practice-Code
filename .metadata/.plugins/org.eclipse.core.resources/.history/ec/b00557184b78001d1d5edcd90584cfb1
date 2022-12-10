@@ -1,0 +1,22 @@
+package com.annotation.base;
+
+import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.ComponentScan;
+import org.springframework.context.annotation.Configuration;
+
+@Configuration
+//@ComponentScan(basePackages="com.annotation.base")
+public class javaConfig {
+	
+	@Bean
+	
+	@Bean
+	public Student getStudent() {
+		
+		// creating a new student object
+		Student student = new Student(Teacher);
+		
+		return student;
+	}
+
+}

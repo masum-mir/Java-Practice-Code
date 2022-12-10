@@ -1,0 +1,11 @@
+package com.collections.standalone;
+
+public class Test {
+	
+	public static void main(String ... as) {
+	
+		
+		
+	}
+
+}

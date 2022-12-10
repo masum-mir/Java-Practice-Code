@@ -1,0 +1,9 @@
+package com.annotation.base;
+
+public class Test {
+	
+	public static void main(String ...strin) {
+		
+	}
+
+}

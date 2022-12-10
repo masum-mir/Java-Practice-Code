@@ -1,0 +1,14 @@
+package com.bean.scope;
+
+import java.util.List;
+
+public class Student {
+	
+	private String name;
+	private String city;
+	
+	private List<String> courses;
+	
+	
+
+}

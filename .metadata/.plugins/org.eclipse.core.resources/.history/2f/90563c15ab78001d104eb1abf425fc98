@@ -1,0 +1,50 @@
+package com.lambda;
+
+interface demoInt{
+	void show1();
+	void show2();
+}
+
+//class demoAno implements demoInt {
+//
+//	@Override
+//	public void show1() {
+//		System.out.println("One mehtod");	
+//	}
+//
+//	@Override
+//	public void show2() {
+//		System.out.println("One mehtod");	
+//	}
+//	
+//	
+//}
+
+public class Test {
+
+	public static void main(String ...ad) {
+		
+//		demoInt obj = new demoInt() {
+//			
+//			@Override
+//			public void show2() {
+//				System.out.println("Hii");
+//				
+//			}
+//			
+//			@Override
+//			public void show1() {
+//				System.out.println("HEllo World");
+//			}
+//		};
+		
+		demoInt obj = new demoAno();
+		
+		obj.show1();
+	
+		
+	}
+}
+
+
+

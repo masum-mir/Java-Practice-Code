@@ -1,0 +1,13 @@
+package com.collections.standalone;
+
+import org.springframework.context.ApplicationContext;
+
+public class Test {
+	
+	public static void main(String ... as) {
+	
+		ApplicationContext context = new 
+		
+	}
+
+}

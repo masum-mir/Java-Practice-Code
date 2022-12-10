@@ -1,0 +1,37 @@
+package com.annotation.base;
+
+import org.springframework.stereotype.Component;
+
+//@Component
+
+public class Student {
+	
+	private Teacher teacher;
+	
+	
+
+	public Student(Teacher teacher) {
+		super();
+		this.teacher = teacher;
+	}
+
+
+
+	public Teacher getTeacher() {
+		return teacher;
+	}
+
+
+
+	public void setTeacher(Teacher teacher) {
+		this.teacher = teacher;
+	}
+
+
+
+	public void display() {
+		
+		this.teacher.show();
+		System.out.println("Show Show Show");
+	}
+}

@@ -1,0 +1,8 @@
+package com.annotation.base;
+
+import org.springframework.context.annotation.Configuration;
+
+@Configuration
+public class javaConfig {
+
+}

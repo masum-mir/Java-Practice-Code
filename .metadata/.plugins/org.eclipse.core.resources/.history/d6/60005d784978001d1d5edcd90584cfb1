@@ -1,0 +1,22 @@
+package com.annotation.base;
+
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+public class Test {
+	
+	public static void main(String ...strin) {
+		
+		ClassPathXmlApplicationContext context = new ClassPathXmlApplicationContext("com/annotation/base/config.xml");
+		
+		AnnotationCon
+		
+		Student student = context.getBean("student", Student.class);
+		
+		
+		System.out.println(student);
+		
+		context.close();
+	}
+
+}

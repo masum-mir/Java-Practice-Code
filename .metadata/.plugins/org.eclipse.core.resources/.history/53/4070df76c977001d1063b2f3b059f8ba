@@ -1,0 +1,10 @@
+package com.bean.scope;
+
+public class Student {
+	
+	private String name;
+	private String city;
+	
+	private List<String> 
+
+}

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans 
+	xmlns="http://www.springframework.org/schema/beans"
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xmlns:p="http://www.springframework.org/schema/p"
+ xmlns:util="http://www.springframework.org/schema/util"
+ xmlns:context="http://www.springframework.org/schema/context"
+ xsi:schemaLocation="http://www.springframework.org/schema/beans
+ https://www.springframework.org/schema/beans/spring-beans.xsd
+  http://www.springframework.org/schema/context
+ https://www.springframework.org/schema/context/spring-context.xsd
+  http://www.springframework.org/schema/util
+ https://www.springframework.org/schema/util/spring-util.xsd">
+
+ <!-- // standalone list  -->
+ 	
+ 	<util:list list-class="java.util.Vector" id="phones2">
+ 		<value>Ashik</value>
+ 		<value>Mafuz</value>
+ 		<value>Masud</value>
+ 		<value>Asif</value>
+ 	</util:list>
+ 
+ <!-- // standalone map  -->
+ 
+ 	<util:map map-class="java.util.HashMap" id="courses2">
+ 		<entry key="java" value="3 month"></entry>
+ 		<entry key="Angualr" value="2 month"></entry>
+ 		<entry key="python" value="2 month"></entry>
+ 	</util:map>
+ 	
+ 	<!-- // standalone properties  -->
+ 	
+ 	<util:properties id="dbconfig">
+ 		<prop key="driver">com.mysql.jdbc.Driver</prop>
+ 		<prop key="username">test</prop>
+ 		<prop key="password">root</prop>
+ 	</util:properties>
+ 	
+
+	<bean class="com.collections.standalone.Emp" name="emp1">
+		
+		<property name="name" value="abc"/>
+		
+		<!-- <property name="phones">
+			<ref bean="phones2"/>
+		</property> -->
+		
+		<property name="phones" ref="phones2" />
+		
+		<property name="courses" ref="courses2" />
+	
+	</bean>
+
+	
+
+
+
+ </beans>

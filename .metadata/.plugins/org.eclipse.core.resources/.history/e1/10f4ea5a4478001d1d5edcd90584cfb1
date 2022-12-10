@@ -1,0 +1,19 @@
+package com.spel;
+
+public class Calculator {
+	
+	private int num;
+	
+	public int getNum(int num) {
+		return num;
+	}
+	
+	public void setNum(int num) {
+		this.num = num;
+	}
+	
+	public void cube(int num) {
+		
+	}
+
+}

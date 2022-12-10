@@ -1,0 +1,9 @@
+package com.annotation.base;
+
+public class Person {
+	
+	pulic void show() {
+		
+		
+	}
+}

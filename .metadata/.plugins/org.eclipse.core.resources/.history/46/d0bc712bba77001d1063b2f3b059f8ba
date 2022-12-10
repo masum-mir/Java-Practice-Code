@@ -1,0 +1,5 @@
+package com.stereotype.annotation;
+
+public class Test {
+
+}

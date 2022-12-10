@@ -1,0 +1,12 @@
+package com.generics;
+
+class MyGeneric 
+
+public class Test {
+	
+	public static void main(String ...strin) {
+		
+		
+	}
+
+}
