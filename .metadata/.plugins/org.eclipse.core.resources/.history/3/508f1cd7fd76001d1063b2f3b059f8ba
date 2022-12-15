@@ -1,9 +1,0 @@
-package com.auto.wiring;
-
-public class B {
-	
-	private String street;
-	private String city;
-	
-
-}
