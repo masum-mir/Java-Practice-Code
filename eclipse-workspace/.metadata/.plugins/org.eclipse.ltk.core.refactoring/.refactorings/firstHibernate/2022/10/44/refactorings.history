@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">
-<refactoring comment="Move element &apos;hibernate.cfg.xml&apos; to &apos;firstHibernate/src/main/java/com.cfgs&apos;&#x0D;&#x0A;- Original project: &apos;firstHibernate&apos;&#x0D;&#x0A;- Destination element: &apos;firstHibernate/src/main/java/com.cfgs&apos;&#x0D;&#x0A;- Original element: &apos;hibernate.cfg.xml&apos;&#x0D;&#x0A;- Update references to refactored element" description="Move file" destination="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.cfgs" element1="src/main/java/hibernate.cfg.xml" files="1" flags="589830" folders="0" id="org.eclipse.jdt.ui.move" policy="org.eclipse.jdt.ui.moveResources" qualified="false" references="true" stamp="1666968161744" units="0" version="1.0"/>
-</session>

@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">
-<refactoring comment="Move 2 packages to &apos;firstHibernate/src/main/java&apos;&#x0D;&#x0A;- Original project: &apos;hibernateProjectOne&apos;&#x0D;&#x0A;- Destination element: &apos;firstHibernate/src/main/java&apos;&#x0D;&#x0A;- Original elements:&#x0D;&#x0A;     hibernateProjectOne/src/com.cfgs&#x0D;&#x0A;     hibernateProjectOne/src/com.entity&#x0D;&#x0A;- Update references to refactored element" description="Move packages" destination="=firstHibernate/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/" element1="/src&lt;com.cfgs" element2="/src&lt;com.entity" flags="589830" fragments="2" id="org.eclipse.jdt.ui.move" policy="org.eclipse.jdt.ui.movePackages" stamp="1666968137155" version="1.0"/>
-</session>
