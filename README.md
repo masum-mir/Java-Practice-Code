@@ -66,3 +66,27 @@
         ans: yes, like object creation, starting a thread, calling a method etc. you can perform any operation in the constructor as you perform in the method.
      9. What is the purpose of constructor class ?
         ans: Java provides a constructor class which can be used to get the internal information of a constructor in the class. It is found in the                          java.lang.reglect package.
+
+        Static keyword: 
+     1. The static keyword in java is used for memory management mainly. We can apply static keyword with variables, methods, blocks and nested classes. 
+        * Static varibles
+            # The static variable can be used to refer to the common property of all object.\
+            # The static variable gets memory only once in the class area at the time of class loading.
+        * Static methods
+            # A static method belongs to the class rather than the object of a class.
+            # A Static method can be invoked without the need for creating an instance of a class.
+            # A static method can access static data member and can change the value of it.
+            
+           
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
