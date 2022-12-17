@@ -139,9 +139,53 @@
                          }
                     }
                 
-                
-                
-                
+              * this can be used to pass as an argument in the method.   -> it is mainly used in the event handling.
+                    class A {
+                        void m(A obj) {
+                            System.out.println("Method is invoked");
+                        }
+                        void p(){
+                            m(this);
+                        }
+                     }
+                            
+                * this can be used to pass as argument in the constructor call.   -> it is useful if we have to use one object in multiple classes.
+                    class A {
+                        B ref;
+                        A(B ref) {
+                            this.ref = ref;
+                        }
+                        void display() {
+                            System.out.println(ref.data);
+                        }
+                     }
+                     
+                     Class B { 
+                        int data = 20;
+                        B() {
+                            A a1 = new A(this);
+                            a1.display();
+                        }
+                      }
+                      
+                 * this keyword can be used to return current class instance.   -> return this keyword as an statement from the method.
+                        syntax: 
+                                return_type method_name() {
+                                        return this;
+                                }
+                                
+                         class A {
+                            A getA() {
+                                return this;
+                            }
+                            void display() {
+                                System.out.println("Hello, world");
+                            }
+                          }
+                          public static void main(String[]args) {
+                            new A().getA().display();
+                          }
+                    
                 
                 
                 
