@@ -76,14 +76,98 @@
             # A static method belongs to the class rather than the object of a class.
             # A Static method can be invoked without the need for creating an instance of a class.
             # A static method can access static data member and can change the value of it.
-            
+     2. Restrictions for the static method
+        * The static method can not use static data member or call non-static method directly.
+        * this and super cannot be used in static context.
            
+     3. Why is the Java main method static?
+        ans: It is because the object is not required to call a static method. If it were a non-static method, JVM creates an object first then call main() method that                 will lead the problem if extra memory allocation.
+     4. Can we execute a program without main() method?
+        ans: No, one of the ways was the static block, but it was possible till JDK 1.6 Sience JDK 1.7 it is not possible to execute a Java class without the main                  method.
     
-    
-    
-    
-    
-    
+        This keyword: 
+     1. 6 usage of java this keyword:
+        * this keyword refers to the current object inside a method or constructor.
+                class A{
+                    void print(){
+                        System.out.println(this);
+                    }
+                    public static void main(String... args){
+                        A a = new A();
+                        System.out.println(a);
+                        a.print();
+                    }
+                 }
+                 
+          * whenever the name of instance and local variable both are same then our runtime environment JVM gets confused that which one is local variable and which                are is instance variable, to avoid this problem we should use this keyword.
+                class A{
+                    String name;
+                    void print(String name){
+                        this.name = name;
+                        }
+                    }
+           * It is also used when we want to call the default constructor of its own class.
+                   class A{
+                        A() {
+                            System.out.println("Hello, World");
+                            }
+                        A(int a){
+                            this();
+                            System.out.println(a);
+                        }
+                    }
+                    
+            * It also called parametrized constructor of its own class.
+                    class A{
+                        A() {
+                            this(10);
+                        }
+                        A(int a) {
+                            System.out.println(a);
+                        }
+                        public static void main(String... args) {
+                            A a = new A();
+                        }
+             * this can be used to invoke current class method (implicity)
+                    class A{
+                        void m() {
+                            System.out.println("hello, world");
+                        }
+                        void n() {
+                            System.out.println("Hello");
+                            this.m();
+                         }
+                    }
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
     
     
     
