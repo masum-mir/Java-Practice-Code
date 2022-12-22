@@ -17,6 +17,10 @@ public class TestOne {
 		System.out.println(t.num);
 		System.out.println(t.num2);
 		
+		
+		MySingleton m1;
+		m1 = MySingleton.getInstance();
+		
 	}
 
 }
