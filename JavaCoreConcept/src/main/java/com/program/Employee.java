@@ -2,9 +2,9 @@ package com.program;
 
 public class Employee {
 	
-	 private String name = "Mausm";
-	 private int year = 912;
-     private int phone = 01234342433;
+	 private String name;
+	 private int year;
+     private int phone;
 
 	public String getName() {
 		return name;
