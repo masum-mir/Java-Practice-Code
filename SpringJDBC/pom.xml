@@ -2,18 +2,16 @@
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
 
-  <groupId>com</groupId>
-  <artifactId>SpringJDBC</artifactId>
+  <groupId>com.test</groupId>
+  <artifactId>SpringJdbc</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <packaging>jar</packaging>
 
-  <name>SpringJDBC</name>
+  <name>SpringJdbc</name>
   <url>http://maven.apache.org</url>
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-    <maven.compiler.source>18</maven.compiler.source>
-    <maven.compiler.target>18</maven.compiler.target>
   </properties>
 
   <dependencies>
@@ -23,8 +21,8 @@
       <version>3.8.1</version>
       <scope>test</scope>
     </dependency>
-
-    <!-- https://mvnrepository.com/artifact/org.springframework/spring-core -->
+    
+     <!-- https://mvnrepository.com/artifact/org.springframework/spring-core -->
     <dependency>
       <groupId>org.springframework</groupId>
       <artifactId>spring-core</artifactId>
@@ -54,8 +52,6 @@
     </dependency>
 
 
-
+    
   </dependencies>
-
-
 </project>
