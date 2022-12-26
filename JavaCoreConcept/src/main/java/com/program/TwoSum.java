@@ -1,6 +1,6 @@
 package com.program;
 
-public class indiesTwoNumbers {
+public class TwoSum {
 	
 	public static int[] sum(int nums[], int target) {
 		
@@ -37,7 +37,7 @@ public class indiesTwoNumbers {
 		int nums[] = {2,7,11,15};
 		int target = 9;
 		
-		indiesTwoNumbers.sum(nums, target);
+		TwoSum.sum(nums, target);
 //		System.out.println(indiesTwoNumbers.sum);
 	}
 
