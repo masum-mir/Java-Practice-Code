@@ -14,7 +14,7 @@ class Student2 {
 class Student3 {
 	int data = 10;
 	Student3() {
-		Student2 st = new Student2(this);
+		Student2 st = new Student2(new Student3());
 		st.display();
 	}
 }
