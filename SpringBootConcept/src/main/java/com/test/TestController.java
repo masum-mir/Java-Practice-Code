@@ -10,7 +10,9 @@ public class TestController {
 	
 	@RequestMapping("/test")
 	public String firstHandler() {
-		return "Just for testing !!";
+		int a=10;
+		int b=20;
+		return "Just for testing !! \t sum of a and b = "+(a+b);
 	}
 
 }
