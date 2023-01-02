@@ -118,11 +118,11 @@ public class SpringBootConceptApplication {
 //		});
 		
 		
-		List<User> user1 = userRepository.findbyNameAndCity("ABC", "Dhaka");
-		
-		user1.forEach(rs -> {
-			System.out.println(rs.getId()+" : "+rs.getName()+" : "+rs.getCity());
-		});
+//		List<User> user1 = userRepository.findbyNameAndCity("ABC", "Dhaka");
+//		
+//		user1.forEach(rs -> {
+//			System.out.println(rs.getId()+" : "+rs.getName()+" : "+rs.getCity());
+//		});
 		
 	}
 
