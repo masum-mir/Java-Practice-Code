@@ -44,11 +44,13 @@ public class BookController {
 	
 	@GetMapping("/test")
 	public ResponseEntity<List<Book>> getBooks() {
+		
 		List<Book> list = this.service.getAllBooks();
 		if(list.size() <= 0) {
 			return ResponseEntity.status(HttpStatus.NOT_FOUND).build();
 		}
 		return ResponseEntity.of(Optional.of(list));
+		
 	}
 	
 	@GetMapping("/test/{id}")
@@ -69,7 +71,7 @@ public class BookController {
 		
 		try {
 			b = this.service.addBook(book);
-			return ResponseEntity.of(Optional.of(b));
+			return ResponseEntity.status(HttpStatus.CREATED).body(b);
 		} catch(Exception e) {
 			// handle exception
 			e.printStackTrace();
