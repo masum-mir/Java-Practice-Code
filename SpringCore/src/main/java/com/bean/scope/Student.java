@@ -8,7 +8,10 @@ import org.springframework.context.annotation.Scope;
 import org.springframework.stereotype.Component;
 
 @Component
-@Scope(value=ConfigurableBeanFactory.SCOPE_SINGLETON)
+//@Scope(value=ConfigurableBeanFactory.SCOPE_SINGLETON)
+//@Scope(value=WebApplicationContext.SCOPE_REQUEST)
+//@
+//@RequestScoper
 public class Student {
 	
 	@Value("hello")

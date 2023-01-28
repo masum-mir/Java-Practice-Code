@@ -5,26 +5,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1fa4b468-e9d3-4068-afa8-5fe6b9f345a8" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.classpath" beforeDir="false" afterPath="$PROJECT_DIR$/.classpath" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.project" beforeDir="false" afterPath="$PROJECT_DIR$/.project" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" afterPath="$PROJECT_DIR$/.settings/org.eclipse.jdt.core.prefs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/App.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/Student.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/config.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/AppTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/maven/com/SpringJDBC/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/maven/com/SpringJDBC/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/App.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/Student.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/config.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/AppTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaCoreConcept/build/classes/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaCoreConcept/build/classes/com/lambda/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaCoreConcept/build/classes/com/lambda/Test.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaCoreConcept/src/main/java/com/lambda/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaCoreConcept/src/main/java/com/lambda/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringBootApiConcept/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringBootApiConcept/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringBootApiConcept/src/main/java/com/test/dao/BookRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringBootApiConcept/src/main/java/com/test/dao/BookRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringBootApiConcept/src/main/java/com/test/service/BookService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringBootApiConcept/src/main/java/com/test/service/BookService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringBootConcept/src/main/java/com/test/SpringBootConceptApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringBootConcept/src/main/java/com/test/SpringBootConceptApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringBootConcept/src/main/java/com/test/TestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringBootConcept/src/main/java/com/test/TestController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringBootConcept/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringBootConcept/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringCore/src/main/java/com/auto/wiring/A.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringCore/src/main/java/com/auto/wiring/A.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringCore/src/main/java/com/auto/wiring/config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringCore/src/main/java/com/auto/wiring/config.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringCore/src/main/java/com/bean/scope/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringCore/src/main/java/com/bean/scope/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringCore/src/main/java/com/stereotype/annotation/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringCore/src/main/java/com/stereotype/annotation/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringCore/target/classes/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringCore/target/classes/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringCore/target/classes/META-INF/MANIFEST.MF" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringCore/target/classes/META-INF/maven/com.test/SpringPractice/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringCore/target/classes/META-INF/maven/com.test/SpringPractice/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringCore/target/classes/com/auto/wiring/A.class" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringCore/target/classes/com/auto/wiring/A.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringCore/target/classes/com/auto/wiring/config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringCore/target/classes/com/auto/wiring/config.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringCore/target/classes/com/bean/scope/Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringCore/target/classes/com/bean/scope/Student.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringCore/target/classes/com/stereotype/annotation/Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringCore/target/classes/com/stereotype/annotation/Student.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,7 +62,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "I:/SpringJDBC",
+    "last_opened_file_path": "D:/workspace/backend/eRecruitment_Portal_BackEnd/erecruitment_portal_backend",
     "settings.editor.selected.configurable": "preferences.lookFeel"
   }
 }]]></component>

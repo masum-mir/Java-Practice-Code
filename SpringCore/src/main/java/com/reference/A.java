@@ -4,6 +4,7 @@ public class A {
 	
 	private  int x;
 	private B ob;
+	
 	public int getX() {
 		return x;
 	}

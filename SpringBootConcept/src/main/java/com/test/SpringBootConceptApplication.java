@@ -20,6 +20,8 @@ public class SpringBootConceptApplication {
 		ApplicationContext context = SpringApplication.run(SpringBootConceptApplication.class, args);
 		
 		UserRepository userRepository = context.getBean(UserRepository.class);
+		
+		System.out.println(userRepository.getMessage());
 //		
 //		User user = new User();
 //		user.setName("buri");

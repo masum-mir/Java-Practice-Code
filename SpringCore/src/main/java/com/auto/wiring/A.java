@@ -9,10 +9,8 @@ public class A {
 
 	public A() {
 		super();
-		// TODO Auto-generated constructor stub
 	}
 
-	/* @Autowired */
 	public A(B b) {
 		super();
 		this.b = b;
@@ -22,7 +20,7 @@ public class A {
 	public B getB() {
 		return b;
 	}
-	/* @Autowired */
+
 	public void setB(B b) {
 		this.b = b;
 	}

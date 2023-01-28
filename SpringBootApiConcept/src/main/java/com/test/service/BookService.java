@@ -33,7 +33,7 @@ public class BookService {
 		
 //		return list;
 		
-		List<Book> book = (List<Book>) this.bookRepository.findAll();
+		List<Book> book = (List<Book>) bookRepository.findAll();
 		
 		return book;
 	}

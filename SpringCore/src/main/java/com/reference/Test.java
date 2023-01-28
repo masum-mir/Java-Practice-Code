@@ -15,10 +15,10 @@ public class Test {
 		
 		A a = (A) context.getBean("aref");
 		
-		System.out.println(a);
-		System.out.println(a.getX());
-		System.out.println(a.getOb().getY());
-		System.out.println(a.getOb());
+		System.out.println("a :: "+a);
+		System.out.println("a.x :: "+a.getX());
+		System.out.println("a.ob.y :: "+a.getOb().getY());
+		System.out.println("a.ob :: "+a.getOb());
 		
 		
 	}

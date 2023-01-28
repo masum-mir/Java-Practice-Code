@@ -22,7 +22,7 @@
      	<bean class="com.auto.wiring.A" name="a" autowire="no" /> <!--  ///by default noo -->
 <!--      	<bean class="com.auto.wiring.A" name="a" autowire="constructor" />  -->
 <!-- 	<bean class="com.auto.wiring.A" name="a" autowire="byName" />  -->
-<!-- 	<bean class="com.auto.wiring.A" name="a" autowire="byName" />  -->
+<!-- 	<bean class="com.auto.wiring.A" name="a" autowire="byType" />  -->
 		
 
  </beans>

@@ -15,17 +15,17 @@
  	<property name="y" value="44" />
  </bean>
  
-<!--  <bean class="com.reference.A" name="aref">
+  <bean class="com.reference.A" name="aref">
  	<property name="x" value="66" />
  	<property name="ob">
  		<ref bean="bref" />
  	</property>
- 	<property name="ob" ref="bref" />
- </bean> -->
+  <!--	<property name="ob" ref="bref" /> -->
+ </bean> 
  
  
  <!-- // use p schema -->
  
- <bean class="com.reference.A" name="aref" p:x="23" p:ob-ref="bref" />
+<!--  <bean class="com.reference.A" name="aref" p:x="23" p:ob-ref="bref" />  -->
  
  </beans>

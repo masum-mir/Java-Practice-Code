@@ -7,9 +7,12 @@ interface demoInt{
 }
 
 //class demoAno implements demoInt{
+//
+//
 //	@Override
-//	public void show1() {
+//	public void show1(int a, int b) {
 //		System.out.println("One mehtod");	
+//		
 //	}
 //}
 
@@ -60,7 +63,7 @@ public class Test {
 		// lambda expression ..!
 		
 //		demoAno obj = new demoAno();
-//		obj.show1();
+//		obj.show1(10, 20);
 		
 		demoInt obj = (a,b) -> {
 			System.out.println("I am methos one: "+(a + b));

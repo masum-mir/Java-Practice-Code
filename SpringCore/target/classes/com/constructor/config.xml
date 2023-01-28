@@ -11,12 +11,12 @@
   http://www.springframework.org/schema/context
  https://www.springframework.org/schema/context/spring-context.xsd">
 
-	<!-- <bean class="com.constructor.Info" name="inforef">
+	<bean class="com.constructor.Info" name="inforef">
 		<constructor-arg value="Dhaka" />
-	</bean> -->
+	</bean>
 	
-	<bean class="com.constructor.Info" name="inforef" c:address="java is most propular programming language" />
-
+	<!-- <bean class="com.constructor.Info" name="inforef" c:address="java is most propular programming language" />
+ -->
 	<bean class="com.constructor.Person" name="person">
 		<constructor-arg value="HELLO WORLD"/>
 		<constructor-arg value="234" type="int" />  
