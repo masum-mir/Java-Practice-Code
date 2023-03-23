@@ -11,7 +11,7 @@ class Student {
 		this.marks = marks;
 	}
 }
-Runnable, Callable, Comparable, Predicate, Serializable, Cloneable, Remote
+//Runnable, Callable, Comparable, Predicate, Serializable, Cloneabl, Remote
 class ABC {
 	String dept;
 	Student student;

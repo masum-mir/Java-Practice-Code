@@ -22,6 +22,7 @@ interface Temp {
 
 class TempImpl implements Temp {
 	
+	
 }
 
 public class InterfaceTest {
